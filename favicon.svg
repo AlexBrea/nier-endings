@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke-linejoin="miter" stroke-linecap="butt">
+	<!-- Fan-drawn Pod on the menu parchment; same geometry as src/components/Pod.astro, heavier strokes for small sizes. -->
+	<style>
+		.bg { fill: #dad4bb; }
+		.ink { stroke: #4e4b42; }
+		@media (prefers-color-scheme: dark) {
+			.bg { fill: #2b2a26; }
+			.ink { stroke: #dad4bb; }
+		}
+	</style>
+	<rect class="bg" fill="#dad4bb" width="32" height="32" rx="3" />
+	<g class="ink" stroke="#4e4b42" stroke-width="2">
+		<path d="M11 6h10l1.5 1.5v14L21 23H11l-1.5-1.5v-14z" />
+		<path d="M13 11.5h6M13 14.5h6M13 17.5h6" stroke-width="1.5" />
+		<path d="M9.5 9H6.5v14.5M5 23.5h3M5 23.5v3M8 23.5v3" />
+		<path d="M22.5 9h3v14.5M24 23.5h3M24 23.5v3M27 23.5v3" />
+	</g>
+</svg>
